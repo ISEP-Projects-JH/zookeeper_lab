@@ -1,0 +1,48 @@
+# -----------------------------
+# OS / System Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDE / Editor Files
+# -----------------------------
+# IntelliJ / PyCharm / IDEA
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# -----------------------------
+# Python Cache / Build Files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pdb
+*.pkl
+*.egg-info/
+build/
+dist/
+
+# -----------------------------
+# Project-Specific Ignored Files
+# -----------------------------
+
+# Only ignore testing folder in root
+/testing/
+
+# Only ignore config folder in root
+/config/
+
+# Only ignore root-level __init__.py
+/__init__.py
+
+# Logs (if any)
+*.log
+
+# Environment files
+.env
+.venv
+venv/

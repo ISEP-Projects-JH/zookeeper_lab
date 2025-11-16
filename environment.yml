@@ -1,0 +1,16 @@
+name: zookeeper-lab
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - grpcio==1.64.0
+      - grpcio-tools==1.64.0
+      - protobuf==5.28.3
+      - click==8.1.7
+      - rich==13.7.1
+      - psutil==6.0.0
+      - pytest==8.3.2
